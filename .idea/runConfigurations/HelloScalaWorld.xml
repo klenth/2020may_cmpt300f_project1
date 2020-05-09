@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="HelloScalaWorld" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="HelloScalaWorld" />
+    <option name="MAIN_CLASS_NAME" value="scala.HelloScalaWorld" />
     <module name="2020may_cmpt300f_project1" />
     <method v="2">
       <option name="Make" enabled="true" />
