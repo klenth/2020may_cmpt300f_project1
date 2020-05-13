@@ -70,8 +70,9 @@ class P01_Numbers {
   }
 }
 
-object test {
+object P01_Numbers_Test {
   def main(args: Array[String]): Unit = {
-    new P01_Numbers().complicated().print()
+    // Put any code you want here for testing purposes
+    new P01_Numbers().example().print()
   }
 }

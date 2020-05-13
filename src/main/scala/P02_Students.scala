@@ -31,3 +31,9 @@ class P02_Students {
     throw new UnsupportedOperationException("Delete this line and replace with your code")
   }
 }
+
+object P02_Students_Test {
+  def main(args: Array[String]): Unit = {
+    // Put any code you want here for testing purposes
+  }
+}

@@ -55,4 +55,9 @@ public class P01_Words {
 
                 .collect(Collectors.toList());
     }
+
+    public static void main(String[] args) {
+        // Put any code you want here for testing purposes
+
+    }
 }

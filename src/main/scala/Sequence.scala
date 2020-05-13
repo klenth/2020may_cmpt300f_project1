@@ -1,3 +1,11 @@
+/*
+ * A class representing a sequence of integers where every integer (after the first two) is determined by the two
+ * previous.
+ *
+ * initial - the first two values of the sequence (default: (0, 0))
+ * f       - a function accepting the previous two values and returning the next (default: (a, b) => 0)
+ * done    - a function accepting an integer (sequence value) that returns true if the sequence is over
+ */
 case class Sequence(val initial: (Int, Int) = (0, 0),
                     val f: (Int, Int) => Int = (a, b) => 0,
                     val done: (Int) => Boolean = (_ => false))
